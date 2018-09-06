@@ -1,7 +1,7 @@
 ﻿(function () {    
 
     $().ready(function () {
-        
+        clk();
         setInterval(function () {
             clk();
         }, 1000);
