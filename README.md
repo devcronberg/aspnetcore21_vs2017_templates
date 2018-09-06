@@ -1,0 +1,1 @@
+# aspnetcore21_vs2017_templates
