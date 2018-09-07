@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace aspnetcore21_mvc_basic
+namespace aspnetcore21_mvc_tom
 {
     public class Startup
     {
@@ -25,10 +25,9 @@ namespace aspnetcore21_mvc_basic
             {
                 app.UseDeveloperExceptionPage();
                 app.UseStatusCodePages();
-            }            
+            }
             app.UseFileServer();
             app.UseMvcWithDefaultRoute();
- 
         }
     }
 }
