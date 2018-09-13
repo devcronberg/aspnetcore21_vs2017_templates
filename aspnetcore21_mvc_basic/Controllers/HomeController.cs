@@ -19,6 +19,9 @@ namespace aspnetcore21_mvc_basic.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Kl = DateTime.Now.ToLongTimeString();
+            ViewBag.Setting = appSetting.Setting2;
+
             return View();
         }
     }
