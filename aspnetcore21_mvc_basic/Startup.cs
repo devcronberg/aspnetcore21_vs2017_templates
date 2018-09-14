@@ -39,6 +39,7 @@ namespace aspnetcore21_mvc_basic
                 app.UseStatusCodePages();
             }            
             app.UseFileServer();
+            
             app.UseMvcWithDefaultRoute();
  
         }
